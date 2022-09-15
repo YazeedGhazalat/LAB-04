@@ -17,7 +17,7 @@ class _RestMenuState extends State<RestMenu> {
   List numOfP = ["1", '2', "3", "4", '5', '6', '7', '8', '9', '10'];
   String mySelectedNum = "1";
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp( debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           leading: Icon(Icons.menu_book),

@@ -17,7 +17,7 @@ class _LocationState extends State<Location> {
   List areacode = ["+962", '+961', "+1"];
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp( debugShowCheckedModeBanner: false,
         home: Scaffold(
       appBar: AppBar(
         leading: Icon(
